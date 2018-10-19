@@ -1,5 +1,5 @@
 <?php
-
+// 数据库相关配置，包括MySQL,Redis 等
 return [
 
     /*
