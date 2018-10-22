@@ -1,5 +1,5 @@
 <?php
-require_once_DIR_ . '/helpers.php'
+require_once __DIR__ . '/helpers.php';
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -10,7 +10,6 @@ require_once_DIR_ . '/helpers.php'
 | the IoC container for the system binding all of the various parts.
 |
 */
-
 $app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );
