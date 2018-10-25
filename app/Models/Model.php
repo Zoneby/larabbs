@@ -18,3 +18,8 @@ class Model extends EloquentModel
     }
 
 }
+
+
+
+
+
