@@ -40,3 +40,5 @@ Route::get('/users/{users}/edit', 'UsersController@edit')->name('users.edit');
 Route::patch('/users/{user}', 'UsersController@update')->name('users.update');
 
 // Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
