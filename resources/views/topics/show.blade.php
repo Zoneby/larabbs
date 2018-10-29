@@ -60,7 +60,6 @@
                         </form>
                     </div>
                 @endcan
-
             </div>
         </div>
     </div>

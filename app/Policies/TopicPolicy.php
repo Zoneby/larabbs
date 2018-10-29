@@ -12,7 +12,7 @@ class TopicPolicy extends Policy
         return $user->isAuthorOf($topic);
         // return true;
     }
-
+    
     public function destroy(User $user, Topic $topic)
     {
         // return true;
